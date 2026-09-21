@@ -15,6 +15,7 @@ body {
 
 .main-button {
   background: var(--primary);
+  text-decoration: none;
   transition: background 0.2s, transform 0.2s;
   border-radius: 20px;
   font-size: 18px;
