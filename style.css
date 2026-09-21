@@ -1,9 +1,31 @@
+:root {
+    --background: #071426;
+    --primary: #2563eb;
+    --primary-hover: #0edbf2;
+    --text: #f1f5ff;
+    --text-hover:#333333;
+
 body {
   font-family: Arial, sans-serif;
   max-width: 1000px;
   margin: auto;
   padding: 20px;
+  background: var(--background);
 }
+
+.main-button {
+  background: var(--primary);
+  transition: background 0.2s, transform 0.2s;
+  border-radius: 20px;
+  font-size: 18px;
+}
+
+.main-button:hover {
+    background: var(--primary-hover);
+    color: var(--text-hover);
+    transform: translateY(-3px);
+}
+  
 
 h1 {
   text-align: center;
