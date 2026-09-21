@@ -34,5 +34,6 @@ h1 {
 }
 
 title {
-  color: var(--text);
   text-align: center;
+  color: var(--text);
+}
